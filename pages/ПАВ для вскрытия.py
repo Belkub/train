@@ -7,7 +7,7 @@ st.sidebar.success("ПАВ")
 ing_1 = st.checkbox('Концентрат неионных ПАВ для первичного вскрытия')
 ing_2 = st.checkbox('Композия ПАВ и полиспиртов для вскрытия и освоения коллекторов')
 
-df = pd.read_excel('D:\\Users\\файлы\\train\\pages\\База реагенты.xlsx')
+df = pd.read_excel('База реагенты.xlsx')
 
 if ing_1:
     st.error(df['Название'][16])
