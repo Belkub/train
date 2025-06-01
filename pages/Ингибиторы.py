@@ -11,7 +11,7 @@ ing_4 = col2.checkbox('Аминный ингибитор')
 ing_5 = col2.checkbox('ГКЖ')
 ing_6 = col2.checkbox('Ингибитор для акриловых растворов')
 
-df = pd.read_excel('D:\\Users\\файлы\\train\\pages\\База реагенты.xlsx')
+df = pd.read_excel('База реагенты.xlsx')
 
 if ing_1:
     st.error(df['Название'][0])
