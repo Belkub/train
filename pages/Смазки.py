@@ -10,7 +10,7 @@ ing_3 = st.checkbox('Смазка класса lite для глинистых и
 ing_4 = st.checkbox('Смазочная добавка для РУО класса standart')
 ing_5 = st.checkbox('Смазочная добавка для РУО класса lite')
 
-df = pd.read_excel('D:\\Users\\файлы\\train\\pages\\База реагенты.xlsx')
+df = pd.read_excel('База реагенты.xlsx')
 
 if ing_1:
     st.error(df['Название'][6])
