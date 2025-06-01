@@ -9,7 +9,7 @@ ing_2 = st.checkbox('Соэмульгатор для повышения терм
 ing_3 = st.checkbox('Эмульгатор класса premium')
 
 
-df = pd.read_excel('D:\\Users\\файлы\\train\\pages\\База реагенты.xlsx')
+df = pd.read_excel('База реагенты.xlsx')
 
 if ing_1:
     st.error(df['Название'][11])
