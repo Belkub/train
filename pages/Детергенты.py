@@ -7,7 +7,7 @@ st.sidebar.success("Детергенты")
 ing_1 = st.checkbox('Противосальниковая композиция неионных ПАВ')
 ing_2 = st.checkbox('Противосальиковый и ингибирующий комплекс на основе окисленных аминов')
 
-df = pd.read_excel('База реагенты.xlsx')
+df = pd.read_excel('/main/pages/База реагенты.xlsx')
 
 if ing_1:
     st.error(df['Название'][14])
